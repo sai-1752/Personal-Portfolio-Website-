@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="animated-text">Sai Balaji</h1>
+            <p>Aspiring Software Developer</p>
+        </div>
+        <button id="darkModeToggle">Dark Mode</button>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#profile-links">Profile Links</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hi! I am Sai Balaji, an aspiring software developer with a passion for creating beautiful and functional websites and softwares. Welcome to my portfolio!</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <div class="skill-bar">
+                <div class="skill" style="width: 95%;">Java</div>
+            </div>
+            <div class="skill-bar">
+                <div class="skill" style="width: 90%;">C,Python</div>
+            </div>
+            <div class="skill-bar">
+                <div class="skill" style="width: 80%;">HTML/CSS,JavaScript</div>
+            </div>
+            <div class="skill-bar">
+                <div class="skill" style="width: 70%;">C,Python</div>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="container">
+            <h2>Other Skills</h2>
+            <div class="skill-bar">
+                <div class="skill" style="width: 70%;">OOPS, Data Structures and Algorithms ,Operating Systems, Database Management System,SQL</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Project 1</h3>
+                    <p class="overlay">Description.DATA MANAGEMENT(CRUD)
+                        Built Using Python Programming and MYSQL
+                        A Database that can store all the data of multiple users with a large
+amount of data with individ- ual credentials and admin access.
+Fetches the data of the users and displays the Name, Mobile Number,Address using CRUD operations.
+                    </p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Project 2</h3>
+                    <p class="overlay">Description. This project showcases my skills in JavaScript and front-end development.I developed a personal portfolio website which displays my information</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="certifications">
+        <div class="container">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Java Programming [NPTEL].</li>
+                <li>Computer Vision and Image Processing[NPTEL]</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <ul>
+                <li>Narayana Group of Schools, Chittoor,AP</li>
+                <li>XI to XII
+                    Narayana Group of Colleges, Chittoor,AP</li>
+                <li>B.Tech,Computer Science & Engineering - Sri Venkateswara Engineering College,Tirupati (2021-2025)</li>
+            </ul>
+        </div>
+    </section>
+    <section id="activity">
+        <div class="container">
+            <h2>Extra-Curricular Achievements/Activities</h2>
+            <ul>
+                <li>Attained certification through the codsoft internship, showcasing expertise in Java programming and solidifying proficiency in software development.</li>
+                <li>Proud recipient of a participation certificate in a hands-on workshop on Artificial Intelligence (AI) and Machine Learning (ML) conducted by IIT Tirupati. The workshop provided practical exposure to AI and ML techniques and their real-world applications.</li>
+                <li>Interests: Binge-watching entrepreneur talks, language learning, and sports.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="profile-links">
+        <div class="container">
+            <h2>Profile Links</h2>
+            <ul>
+                <li><a href="https://github.com/sai-1752" target="_blank">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/sai-balaji-563839239/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://leetcode.com/u/saibalajianjana/" target="_blank">Leetcode</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+            <div id="formMessage" class="hidden">Thank you for your message!</div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Sai Balaji</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
